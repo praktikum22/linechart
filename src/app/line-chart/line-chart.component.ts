@@ -56,6 +56,7 @@ export class LineChartComponent {
   };
 
   public lineChartOptions: ChartConfiguration['options'] = {
+    responsive: true,
     elements: {
       line: {
         tension: 0.5,

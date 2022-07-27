@@ -2,12 +2,20 @@
 
 // }
 
-.lineChart {
+.linechart {
+  width: 50vw;
+  height: 70vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   place-items: center;
-  width: 50vw;
+  align-items: center;
 }
-.flex-item {
-  width: 50vw;
+
+.buttons {
 }
